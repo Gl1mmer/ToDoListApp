@@ -8,7 +8,7 @@
 import Foundation
 
 struct Note: Identifiable, Hashable {
-    let id: String = UUID().uuidString
+    var id: String = UUID().uuidString
     var title: String
     var body: String
 }

@@ -7,5 +7,5 @@
 import Foundation
 
 protocol UpdateNoteRepository {
-    func updateNote(noteId: String)
+    func updateNote(noteId: String, note: Note)
 }

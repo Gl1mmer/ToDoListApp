@@ -18,6 +18,6 @@ final class DeleteNoteUseCaseImpl: DeleteNoteUseCase {
     }
     
     func execute(noteId: String) {
-        repo.deleteNote(noteId: noteId))
+        repo.deleteNote(noteId: noteId)
     }
 }
